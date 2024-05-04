@@ -1,0 +1,124 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    background: #338bff;
+    color: white;
+  font-family: Arial;
+  }
+
+  .text1 {
+    font-size: 40px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.text2 {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+  float: center;
+  position: relative;
+  padding: 10px;
+  white-space: pre-line;
+  line-height: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h2 {
+  font-family: Arial;
+}
+
+h5 {
+  font-size: 17px;
+  font-family: Arial;
+}
+
+  body{
+    margin: 0;
+  }
+
+  .bang {
+    overflow: hidden;
+    background-color: #194278;
+    font-family: Arial;
+    font-size: 18px;
+}
+    
+  .bang a { 
+    float: left;
+    display: block;
+  color: white;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+  }
+
+ .bang1 {
+    overflow: hidden;
+    background-color: #194278;
+    font-family: Arial;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
+    
+  .bang1 a { 
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  }
+
+ .bang1 a.right {
+    float: right;  
+  }
+
+.bang1 a:hover {
+   background-color: #ddd;
+   color: black;
+  }
+    
+  .bang a.right {
+    float: right;  
+  }
+  .bang a:hover {
+   background-color: #ddd;
+   color: black;
+  }
+
+.main {
+  text-align: center;
+}
+
+  .main {
+    flex: 70%;
+    background: #fffbf0;
+    padding: 20px;
+  }
+   * {
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
